@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Notes App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+
+            <div class="h-section">
+                Notes App
+            </div>
+            <hr>
+            <textarea placeholder="eg.I want to do my homework at 6:30 PM." id="text"></textarea>
+            <input type="button" value="Add Note" id="addbtn" onclick="addNote()">
+        </div>
+        <br>
+        <h1 class="h-section">Your previous Notes</h1>
+        <hr>
+        <div class="history" id="prevNotes">
+            <!-- This field is controlled by javascript -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

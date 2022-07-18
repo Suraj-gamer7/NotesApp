@@ -1,0 +1,120 @@
+body{
+    background-color: #6098ff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    position: relative;
+    top: 5px;
+}
+
+.main textarea{
+    margin: auto;
+    display: block;
+    resize: none;
+    width: 95%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+.main textarea:focus{
+    box-shadow: 1px 1px 5px #122e42;
+}
+
+#addbtn{
+    font-size: 15px;
+    background-color: #ffdf98;
+    box-shadow: 1px 1px 3px grey;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    display: block;
+    padding: 6px 0px;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+
+#addbtn:active{
+    background-color: #ffd689;
+}
+
+.h-section {
+    color: white;
+    margin: 15px 0px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+.container{
+    width: 400px;
+    height: 550px;
+    display: block;
+    margin: 30px auto;
+    border: 2px solid white;
+    border-radius:10px;
+}
+
+.history{
+    position: relative;
+    /* border: 2px solid grey; */
+    height: 300px;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+}
+.history::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    width: 360px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 3px auto;
+}
+
+.box .dte{
+    width: 40px;
+    height: 40px;
+    background-color: #ff6060;
+    float: right;
+    position: relative;
+    top: -44px;
+    cursor: pointer;
+}
+.box .dte:hover{
+    width: 42px;
+    height: 40px;
+    background-color: #ff6060;
+    float: right;
+    position: relative;
+    top: -44px;
+    cursor: pointer;
+}
+
+
+.box .dte img{
+    height: 20px;
+    width: 20px;    
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.box p {
+    margin-top: 10px;
+    padding-left: 5px;
+    display: block;
+}
+
+/* This is initial style whose html is controled by js */
+#temp{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
